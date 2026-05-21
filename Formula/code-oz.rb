@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-# Homebrew formula for code-oz v0.20.3-alpha.0.
+# Homebrew formula for code-oz v0.21.0-alpha.0.
 # Rendered from docs/homebrew/code-oz.rb.template in omerakben/code-oz at
 # release time. Tap: https://github.com/omerakben/homebrew-code-oz
 
@@ -12,23 +12,23 @@ class CodeOz < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/omerakben/code-oz/releases/download/v0.20.3-alpha.0/code-oz-v0.20.3-alpha.0-darwin-arm64.tar.gz"
-      sha256 "27f72ab42c2686a7a60a63efd06a8fa3cfe8e469ce32faf9ad649c66c15016cf"
+      url "https://github.com/omerakben/code-oz/releases/download/v0.21.0-alpha.0/code-oz-v0.21.0-alpha.0-darwin-arm64.tar.gz"
+      sha256 "07989ff664addcb185ad3dae71b1daa3bd0a8370d01bb0b277593beb9ef71f00"
     end
     on_intel do
-      url "https://github.com/omerakben/code-oz/releases/download/v0.20.3-alpha.0/code-oz-v0.20.3-alpha.0-darwin-x64.tar.gz"
-      sha256 "22397ac102b8c8c2e4d5f2a8f2f7322bf91e6f82693aaea0fa086aacf0e1a945"
+      url "https://github.com/omerakben/code-oz/releases/download/v0.21.0-alpha.0/code-oz-v0.21.0-alpha.0-darwin-x64.tar.gz"
+      sha256 "f57ac49f75cd8644f0982fba8cfa2abe84213b6e738cd1d6857694b72954b7c0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/omerakben/code-oz/releases/download/v0.20.3-alpha.0/code-oz-v0.20.3-alpha.0-linux-arm64.tar.gz"
-      sha256 "d898a93aa9b2cdb21194b09073180ba533c1aadad8b7d3a11344e72ba9ad823c"
+      url "https://github.com/omerakben/code-oz/releases/download/v0.21.0-alpha.0/code-oz-v0.21.0-alpha.0-linux-arm64.tar.gz"
+      sha256 "95e7006af8809007963994c8771beaef856c9a80f04698af38117558a3c5cab8"
     end
     on_intel do
-      url "https://github.com/omerakben/code-oz/releases/download/v0.20.3-alpha.0/code-oz-v0.20.3-alpha.0-linux-x64.tar.gz"
-      sha256 "8896e71e4fab383d9c7f10533aef6af8101a9d70fac5e13b419641b74db046cd"
+      url "https://github.com/omerakben/code-oz/releases/download/v0.21.0-alpha.0/code-oz-v0.21.0-alpha.0-linux-x64.tar.gz"
+      sha256 "6592e8f479f513c5057e53bca1b578e289b8904b6a0278f7ccf0fb1eb1198ed3"
     end
   end
 
